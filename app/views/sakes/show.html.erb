@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Prefecture:</strong>
+  <%= @sake.prefecture %>
+</p>
+
+<p>
+  <strong>Brand:</strong>
+  <%= @sake.brand %>
+</p>
+
+<p>
+  <strong>Item:</strong>
+  <%= @sake.item %>
+</p>
+
+<%= link_to 'Edit', edit_sake_path(@sake) %> |
+<%= link_to 'Back', sakes_path %>

@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  prefecture: MyString
+  brand: MyString
+  item: MyString
+
+two:
+  prefecture: MyString
+  brand: MyString
+  item: MyString
